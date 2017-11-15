@@ -1,0 +1,3 @@
+[submodule "mincemeatpy"]
+	path = mincemeatpy
+	url = https://github.com/michaelfairley/mincemeatpy
