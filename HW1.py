@@ -29,8 +29,6 @@ def main():
     datasource = dict(enumerate(data))
 
     def mapfn(k, v):
-        #for name, words in v:
-        #    print name, words
         yield v[0], set(v[1])
 
 
