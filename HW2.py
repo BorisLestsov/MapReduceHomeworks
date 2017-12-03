@@ -17,7 +17,7 @@ def main():
     files = os.listdir(path)
     for name in files:
         filepath = os.path.join(path, name)
-        print "Processing", filepath
+        print "Preprocessing", filepath
         with open(filepath, 'r') as f:
             data.append(tokenizer.tokenize(f.read().lower()))
 
